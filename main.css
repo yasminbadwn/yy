@@ -1,0 +1,1034 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i
+{
+    margin-right: 10px;
+  
+}
+a
+{
+text-decoration: none;
+color: aliceblue;
+}
+header
+{
+    background-image: url(im/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+}
+
+.nav
+{
+    background-color: rgba(32, 30, 28, 0.386);
+    height:60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+   z-index: 99999999999;
+   position: fixed;
+   width: 100%;
+   top: 0;
+    
+}
+.list ul li{
+    list-style: none;
+ 
+}
+.list ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.end
+{
+    width: 40%;
+}
+.heed
+{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.vv
+{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.batton button
+{
+    
+    padding: 12.5px;
+    font-size: 15px;
+   
+  }
+.tit{
+    font-size: 20px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+
+}
+.ti{
+    font-size: 20px;
+    height: 30px;
+    font-family: "Dancing Script", cursive;
+}
+.fotter
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    height: 350px;
+    background-color: rgb(56, 52, 47);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    
+    
+
+}
+.one
+{
+    width: 25%;
+    height: 220px;
+   display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.two
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+.three
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.four
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.list2fotter ul li
+{
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+   height: 40px;
+
+   
+}
+.list3fotter ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.list4fotter ul li {
+   display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: start;
+   
+   height: 40px;
+   list-style: none;
+ 
+}
+.list4fotter
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+.divvv
+{
+    
+    display: flex;
+    
+    
+   
+}
+.endfo{
+    height: 400px;
+    width: 100%;
+     background-color: rgb(47, 43, 36);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: center;
+     text-align: center;
+     color: aliceblue;
+}
+.app
+{
+    font-size: 40px;
+    
+}
+.section1
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   
+}
+.parsect1
+{
+    width: 350px;
+}
+.parsec1
+{
+    margin-top:60px;
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec1 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+   
+}
+.immg
+{
+    width: 40%;
+    height: 90%;
+}
+.titelsec1
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec1
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+ 
+
+.section2
+{
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+   
+}
+.imsec2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 50%;
+    height: 80%;
+}
+.parsect2
+{
+    width: 350px;
+}
+.parsec2
+{
+    
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec2 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.titelsec2
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec2
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+.imsec3
+{
+    width: 100%;
+}
+.secton4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:150px;
+    height: 1000px;
+    width: 1000px;
+
+    
+}
+.sec4d1
+{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    
+}
+.sec4d2
+{
+    width: 100%;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    text-align: center;
+    
+}
+.sec4d4
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: aliceblue;
+   
+
+}
+.sec4d4 button
+{
+    padding: 10px;
+    border-radius: 15%;
+}
+.s33
+{
+    display: flex;
+    justify-content: center;
+}
+.sec4d3
+{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    text-align: center;
+}
+.num
+{
+    width: 330px;
+    height: 350px;
+    display: flex;
+     flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+.numimg
+{
+    width: 270px;
+    height: 230px;
+}
+.numtit
+{
+    text-align: center;
+    font-size: 20px;
+}
+.section5
+{
+    background-image: url(im/ttttt.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.parsec5
+{
+    width: 800px;
+}
+
+@media (max-width :1176px)
+{
+    .secton4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:100px;
+    height: 1000px;
+    width: 1000px;
+
+    
+}
+}
+@media (max-width :1120px)
+{
+    
+    .secton4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:80px;
+    height: 1000px;
+    width: 1000px;
+
+    
+}
+}
+@media (max-width :1069px)
+{
+    header
+{
+    background-image: url(im/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+    color: rgb(238, 222, 222);
+    width: 1150px;
+}
+.section1
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1150px;
+   
+}
+.section2
+{
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 1150px;
+   
+}
+.imsec3
+{
+    width: 1150px;
+}
+.secton4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+
+    
+}
+.sec4d1
+{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    
+}
+.sec4d2
+{
+    width: 100%;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    text-align: center;
+    
+}
+.sec4d4
+{
+    width: 1150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: aliceblue;
+   
+
+}
+.sec4d4 button
+{
+    padding: 5px;
+    border-radius: 15%;
+}
+.s33
+{
+    display: flex;
+    justify-content: center;
+}
+.sec4d3
+{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    text-align: center;
+}
+.num
+{
+    width: 300px;
+    height: 350px;
+    display: flex;
+     flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+.numimg
+{
+    width: 230px;
+    height: 230px;
+}
+.numtit
+{
+    text-align: center;
+    font-size: 15px;
+}
+.section5
+{
+    width: 1150px;
+    background-image: url(im/ttttt.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.top
+{
+    height: 350px;
+    width: 1150px;
+    background-color: rgb(56, 52, 47);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    
+    
+
+}
+.endfo{
+    height: 400px;
+    width: 1150px;
+     background-color: rgb(47, 43, 36);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: center;
+     text-align: center;
+     color: aliceblue;
+}
+.vv
+{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+   
+}
+}
+
+
+@media (max-width: 700px) {
+  
+   
+   
+    header
+{
+    background-image: url(im/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+}
+
+
+.heed
+{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.vv
+{
+    height:420px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+}
+.batton button
+{
+    
+    padding: 12.5px;
+    font-size: 15px;
+   
+  }
+.tit{
+    font-size: 20px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    display: flex;
+    gap: 30px;
+
+}
+.ti{
+    font-size: 20px;
+    height: 30px;
+    font-family: "Dancing Script", cursive;
+}
+.fotter
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    height: 1800px;
+    width: 1150px;
+    background-color: rgb(56, 52, 47);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 30px;
+
+    
+    
+
+}
+.one
+{
+    width: 500px;
+    height: 400px;
+   display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.two
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+.three
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.four
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.list2fotter ul li
+{
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+   height: 40px;
+
+   
+}
+.list3fotter ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.list4fotter ul li {
+   display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: start;
+   
+   height: 40px;
+   list-style: none;
+ 
+}
+.list4fotter
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+.divvv
+{
+    
+    display: flex;
+    
+    
+   
+}
+.endfo{
+    height: 500px;
+    width: 1150px;
+     background-color: rgb(47, 43, 36);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: center;
+     text-align: center;
+     color: aliceblue;
+}
+.app
+{
+    font-size: 40px;
+    
+}
+.section1
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+   
+    height:1300px;
+   
+}
+.parsect1
+{
+    width: 60%;
+    font-size: 30px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+   
+}
+.parsec1
+{
+    margin-top:30px;
+    height: 700px;
+     display: flex;
+     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 20px;
+    
+
+}
+.listsec1 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30%;
+    font-size: 30px;
+   
+}
+.immg
+{
+    width: 65%;
+    height: 40%;
+    display: flex;
+    gap: 15px;
+   
+}
+.titelsec1
+{
+    font-size: 40px;
+    height: 30px;
+    font-family: "Noto Serif", serif;
+    display: flex;
+    gap: 15px;
+    
+    
+}
+.titel2sec1
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 40px;
+}
+
+ 
+
+.section2
+{
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    height:1300px;
+   
+}
+.imsec2
+{
+    
+    width: 60%;
+    height: 50%;
+    display: flex;
+    gap: 15px;
+}
+.parsect2
+{
+    width: 60%;
+}
+.parsec2
+{
+    
+    height: 40%;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 30px;
+
+}
+.listsec2 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.titelsec2
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec2
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 40px;
+}
+.imsec3
+{
+    width:1150px ;
+    height: 500px;
+}
+.secton4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 4500px;
+    width: 1050px;
+
+    
+}
+.sec4d1
+{
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    
+}
+.sec4d2
+{
+    width: 100%;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    text-align: center;
+    
+}
+.sec4d4
+{
+    width: 1050px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   color: aliceblue;
+   
+
+}
+.sec4d4 button
+{
+    padding: 25px;
+    border-radius: 15%;
+}
+.s33
+{
+    display: flex;
+    justify-content: center;
+}
+.sec4d3
+{
+    width: 624px;
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+.num
+{
+    width: 450px;
+    height: 450px;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+  
+    
+}
+.numpar
+{
+    font-size: 30px;
+   
+}
+.numimg
+{
+    width: 420px;
+    height: 400px;
+}
+.numtit
+{
+    text-align: center;
+    font-size: 50px;
+}
+.section5
+{
+    background-image: url(im/ttttt.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.parsec5
+{
+    width: 800px;
+}
+
+    
+}
+
+
+
